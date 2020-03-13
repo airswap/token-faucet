@@ -4,13 +4,24 @@
   "version": "0.0.1",
   "private": true,
   "license": "Apache-2.0",
+  "scripts": {
+    "cp_migration_flat": "cp contracts/Migrations.sol flatten/",
+    "flatten": "truffle run flatten",
+    "migrate": "yarn cp_migration_flat; truffle migrate --skip-dry-run",
+    "verify": "truffle run verify"
+  },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "eslint": "^5.16.0"
   },
   "dependencies": {
+    "ipfs-mini": "^1.1.5",
+    "lodash": "^4.17.15",
     "openzeppelin-solidity": "^2.3.0",
     "solhint": "^2.3.0",
-    "truffle-hdwallet-provider-privkey": "^1.0.3"
+    "source-verify": "^1.0.0",
+    "truffle-flatten": "^1.0.6",
+    "truffle-hdwallet-provider-privkey": "^1.0.3",
+    "truffle-verify": "^1.0.3"
   }
 }

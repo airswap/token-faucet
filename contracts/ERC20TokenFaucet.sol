@@ -1,4 +1,4 @@
-pragma solidity 0.5.11;
+pragma solidity 0.5.12;
 
 import "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol";
 
@@ -8,6 +8,7 @@ contract ERC20TokenFaucet {
 	address payable public owner;
 
 	IERC20 public erc20token;
+	event RequestToken(address requestedAddress);
 
 	modifier onlyOwner {
 		require(msg.sender == owner, "ONLY OWNER");
@@ -24,6 +25,7 @@ contract ERC20TokenFaucet {
 		require(erc20token.balanceOf(msg.sender) < maxWithdraw);
 		// send over maxWithdraw
 		require(erc20token.transferFrom(owner, msg.sender, maxWithdraw));
+		emit RequestToken(msg.sender);
 	}
 
 	function destruct() external onlyOwner {
