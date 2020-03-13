@@ -10,16 +10,16 @@ AST Rinkeby Address: 0xcc1cbd4f67cceb7c001bd4adf98451237a193ff8
 AST Wallet Address: 0x7d74C75dA6cDfB171f84f6D5346D2e7269F0cc00
 Max Withdrawal Amount = 5000 AST or uint256 50000000
 
-Kovan:
-Faucet Contract Address: 0xD2006b3452Ff12ce48D018ff48E0Df76bCA6eE04
-AST Kovan Address: 0x3E0Bc0D9bF8d015DcEc159fB6ee8f22a9eB7a460
-AST Wallet Address: 0x7d74C75dA6cDfB171f84f6D5346D2e7269F0cc00
+Goerli:
+Faucet Contract Address: 0x03ad175CE5256ed2c670C1E6D4B58Ed79E636A31
+AST Address: 0x1a1ec25DC08e98e5E93F1104B5e5cdD298707d31
+Holder Wallet Address: 0x7d74C75dA6cDfB171f84f6D5346D2e7269F0cc00
 Max Withdrawal Amount = 5000 AST or uint256 50000000
 
-Goerli:
-Faucet Contract Address: 0xD2006b3452Ff12ce48D018ff48E0Df76bCA6eE04
-AST Goerli Address: 0x3E0Bc0D9bF8d015DcEc159fB6ee8f22a9eB7a460
-AST Wallet Address: 0x7d74C75dA6cDfB171f84f6D5346D2e7269F0cc00
+Kovan 
+Faucet Contract Address: 0xc628A32BBD438908dCB5a7398B72F5C0e9e0D4e1
+AST Address: 0x1a1ec25DC08e98e5E93F1104B5e5cdD298707d31
+Holder Wallet Address: 0x7d74C75dA6cDfB171f84f6D5346D2e7269F0cc00
 Max Withdrawal Amount = 5000 AST or uint256 50000000
 
 This is a truffle built project. To get started just run `yarn`. 
