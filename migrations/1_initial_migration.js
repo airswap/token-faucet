@@ -1,5 +1,8 @@
-const Migrations = artifacts.require("Migrations");
+const ERC20TokenFaucet = artifacts.require("ERC20TokenFaucet");
 
-module.exports = function(deployer) {
-  deployer.deploy(Migrations);
+module.exports = deployer => {
+  console.log('Trying to deploy');
+  const ERC20_TOKEN_ADDRESS = "INSERT ADDRESS HERE" // AST
+  const maxWithdrawalAmount = 50000000 // 5000 ast since decimal = 4
+  deployer.deploy(ERC20TokenFaucet, maxWithdrawalAmount, ERC20_TOKEN_ADDRESS);
 };
