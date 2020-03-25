@@ -2,7 +2,7 @@
 
 This repository contains a ERC20TokenFaucet which allows anyone to use this to distribute ERC20 tokens for testing. The distributor of the tokens is hardcoded. 
 
-The current deployed contracts is for AST Faucets which allows users to receive up to 5000 AST per address. The url is https://ast-faucet-ui.development.airswap.io/.
+The current deployed contracts are AST Faucets which allows users to receive up to 5000 AST per address. The url is https://ast-faucet-ui.development.airswap.io/.
 
 ### Rinkeby:
 
