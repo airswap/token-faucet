@@ -18,6 +18,8 @@
     "ipfs-mini": "^1.1.5",
     "lodash": "^4.17.15",
     "openzeppelin-solidity": "^2.3.0",
+    "prettier": "^2.0.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.47",
     "solhint": "^2.3.0",
     "source-verify": "^1.0.0",
     "truffle-flatten": "^1.0.6",
