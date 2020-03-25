@@ -36,7 +36,7 @@ This is a truffle built project. To get started just run `yarn` or `npm`.
 
 To do a migration, make sure to store any environment variables in `.env`.
 
-### Common Issues if the faucet is not working:
+### Common issues if the faucet is not working:
 * Check the user of the contract has less than 5000 AST.
 * Check the AST balance of the AST Wallet Address has sufficient balance.
 * Check the allowance of the AST Wallet Address for Faucet Contract Address.
