@@ -1,26 +1,41 @@
 [
     {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_maxWithdraw",
+          "type": "uint256"
+        },
+        {
+          "internalType": "contract IERC20",
+          "name": "_faucetToken",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "requestedAddress",
+          "type": "address"
+        }
+      ],
+      "name": "RequestToken",
+      "type": "event"
+    },
+    {
       "constant": true,
       "inputs": [],
       "name": "erc20token",
       "outputs": [
         {
           "internalType": "contract IERC20",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "owner",
-      "outputs": [
-        {
-          "internalType": "address payable",
           "name": "",
           "type": "address"
         }
@@ -45,21 +60,19 @@
       "type": "function"
     },
     {
-      "inputs": [
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
         {
-          "internalType": "uint256",
-          "name": "_maxWithdraw",
-          "type": "uint256"
-        },
-        {
-          "internalType": "contract IERC20",
-          "name": "_faucetToken",
+          "internalType": "address payable",
+          "name": "",
           "type": "address"
         }
       ],
       "payable": false,
-      "stateMutability": "nonpayable",
-      "type": "constructor"
+      "stateMutability": "view",
+      "type": "function"
     },
     {
       "constant": false,
